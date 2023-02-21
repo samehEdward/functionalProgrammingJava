@@ -2,8 +2,8 @@ package com.example.functionalprogrammingjava;
 
 public  class Mymath2 {
 
-    public static Integer tripo(Integer n)
+    public static Double tripo(Integer n)
     {
-        return n * 7;
+        return Double.valueOf(n * 7);
     }
 }

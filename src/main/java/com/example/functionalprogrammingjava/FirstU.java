@@ -20,8 +20,8 @@ public class FirstU {
         System.out.println(result);
 
 
-        Function<Integer, Integer> myTripo = Mymath2::tripo;
-        Integer resulto = myTripo.apply(3);
+        Function<Integer, Double> myTripo = Mymath2::tripo;
+        Double resulto = myTripo.apply(3);
         System.out.println(resulto);
     }
 }
