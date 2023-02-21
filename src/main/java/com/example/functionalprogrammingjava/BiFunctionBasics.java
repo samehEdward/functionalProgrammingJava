@@ -17,7 +17,16 @@ public class BiFunctionBasics
         TerioFunction<Integer, Integer, Integer, Integer> addThree = (x, y, z) -> x+y+z;
 
         System.out.println(addThree.apply(70,30,11));
+
+
+        KompInterface<Integer, String, Integer, String, String> addMehr = (x, y, z, m)->
+                String.valueOf(x + " " + y +" "+ z+ " "+ m);
+
+        System.out.println(addMehr.aplly(5,"Sameh", 7, "Edward"));
     }
+
+
+
 
 
 }
